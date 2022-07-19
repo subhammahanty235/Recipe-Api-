@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.4.4"
+  },
+  "name": "recipe-api",
+  "version": "1.0.0",
+  "description": "api for food recipies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Subham",
+  "license": "ISC"
+}
