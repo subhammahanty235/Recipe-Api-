@@ -19,7 +19,7 @@ const connecttoDb = async()=>{
     }
     
 }
-const port = 80 || process.env.PORT
+const port = process.env.PORT || 80
 connecttoDb()
 // <--
 // set the view engine
